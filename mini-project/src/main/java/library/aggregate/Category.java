@@ -1,4 +1,5 @@
-package liarary.aggregate;
+package library.aggregate;
 
-public class Category {
+public enum Category {
+    FICTION, SOCIETY, SCIENCE, CHILDREN, ART;
 }

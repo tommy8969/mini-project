@@ -1,4 +1,4 @@
-package section02.library.repository;
+package library.repository;
 
 import library.aggregate.Book;
 import library.aggregate.BookStatus;
@@ -12,7 +12,7 @@ public class BookRepository {
     private final ArrayList<Book> bookList = new ArrayList<>();
 
     private final File file = new File(
-            "src/main/java/section02/library/db/bookDB.dat"
+            "src/main/java/library/db/bookDB.dat"
     );
 
     public BookRepository() {
